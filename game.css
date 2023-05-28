@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color:deeppink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+h1{
+    color:aqua
+}
+
+div{
+    font-size: larger;
+}
+
+.btn{
+    background-color: blueviolet;
+    color: gold;
+}
