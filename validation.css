@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Blackadder;
+    src: url("Fonts/itcblkad.ttf");
+}
+body{
+    height: 100vh;
+    background-color:black;
+    color:deeppink;
+    font-family: Blackadder;
+    font-size: 24pt;
+}
+h1{
+    text-align:center;
+    }
+form{
+    margin-left: 750px;
+    margin-right:750px;
+    background-color:darkviolet;
+    border: 2px double gold;
+    color:goldenrod;
+    padding: 20px;
+    text-align:center;
+    border-radius: 15px;
+    width: 350px;
+}
+form input{
+    display: ruby;
+    background: none;
+    margin: 18px;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid gold;
+    outline: none;
+    width: 180px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+form input, input[type="submit"]{
+    font-family: Blackadder;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 800;
+    background-color:black;
+    color:gold;
+}
+#errorMessage{
+    margin-left: 750px;
+    margin-right: 750px;
+    text-align: center;
+    color: red;
+}
+#entryGranted{
+    margin-left: 750px;
+    margin-right: 750px;
+    text-align: center;
+    color:aqua;
+}
+

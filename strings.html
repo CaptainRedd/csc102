@@ -1,0 +1,38 @@
+<!--Tristan Biggs-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 - User Input Validation</title>
+    <link rel="stylesheet" href="validation.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+<!--Page title-->
+    <h1>You there!<br>You'll go no further 'til you place your mark on the form</h1>
+    <br>
+<!--This div will display an error message if input is invalid-->
+    <div id="errorMessage"></div>
+    <br>
+<!--User input form for first name, last name, and zip-->
+    <form name="markForm" id="markForm" onsubmit="return validateForm();">
+<!--Label and text box for first name-->
+        <label for="givenName">What shall I call you?</label>
+        <input type="text" id="givenName" name="givenName">
+        <br>
+<!--Label and text box for last name name-->
+        <label for="surName">And your Family name?</label>
+        <input type="text" id="surName" name="surName">
+        <br>
+<!--Label and text box for zip code-->
+        <label for="zipCode">And the ZIP Code from whence you came?</label>
+        <input type="text" id="zipCode" name="zipCode">
+        <br>
+<!--Submit button-->
+        <input type="submit" value="Sign">
+    </form>
+<!--This div will display a message if input passes validation-->
+    <div id="entryGranted"></div>
+</body>
+</html>
