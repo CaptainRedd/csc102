@@ -26,6 +26,10 @@ body{
         margin-left: 525px;
         margin-right: 415px;
     }
+    h4{
+        color:rgb(121, 36, 182);
+        text-decoration: underline;
+    }
     h1{
        color:aqua;
     }
