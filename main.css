@@ -1,49 +1,51 @@
+@font-face {
+    font-family: Blackadder;
+    src: url("Fonts/itcblkad.ttf");
+}
 body{
     background-color: black;
     color:deeppink;
     font-family: blackadder;
     font-size: 24pt;
-
-}
-header{
     text-align: center;
 }
-nav{
-    border-style: double;
-    border-color: goldenrod;
-    height: 1500px;
-    width: 150px;
-    float: left;
-    padding: 5px;
-    line-height: 30px;
-    margin-right: 20px;
-    
-}
-h1{
-    color:aqua;
-}
-h2{
-    color:indigo;
-}
-h3{
-    color:aquamarine;
-    text-decoration: underline;
-    font-weight: bold;
-}
-#memeImage{
-    margin-left: 50px;
-    margin-right: 100px;
-
-}
-#mfwmeme{
-    margin-left: 50px;
-    margin-right: 100px;
-}
-footer{
-    text-align: center;
-    margin-left: 180px;
-    margin-right: 200px;
-    color:goldenrod;
-    border-top-style:ridge;
-    border-top-color:aqua;
-}
+    header{
+        margin-left: 170px;
+    }
+    nav{
+        border-style: double;
+        border-color: goldenrod;
+        height: 1700px;
+        width: 150px;
+        float: left;
+        padding: 5px;
+        line-height: 30px;
+        margin-right: 20px;  
+    }
+    div {
+        margin-left: 525px;
+        margin-right: 415px;
+    }
+    h1{
+       color:aqua;
+    }
+    h2{
+        color:indigo;
+    }
+    h3{
+        color:aquamarine;
+        text-decoration: underline;
+        font-weight: bold;
+        margin-right: 55px;
+    }
+    #memeImage{
+        align-items: center;
+    }
+    #mfwmeme{
+        align-items: center;
+    }
+    footer{
+        color:goldenrod;
+        border-top-style:ridge;
+        border-top-color:aqua;
+    }
