@@ -20,12 +20,15 @@ function playCraps(){
 
     //do the logic to see if the dice rolls win or lose
     if (sum == 7 || sum == 11){
+        document.getElementById("crapsRes").style.color = "tomato";
         document.getElementById("crapsRes").innerHTML = "You Lose!";
     }
     else if(die1 == die2 && die1 % 2 == 0){
+        document.getElementById("crapsRes").style.color = "springgreen";
         document.getElementById("crapsRes").innerHTML = "You Win!";  
     }
     else{
+        document.getElementById("crapsRes").style.color = "yellow";
         document.getElementById("crapsRes").innerHTML = "You Pushed!";
     }
 }

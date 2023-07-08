@@ -1,7 +1,9 @@
 body{
     background-color: black;
     color:deeppink;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: blackadder;
+    font-size: 24pt;
+    text-align: center;
 
 }
 
@@ -14,6 +16,13 @@ div{
 }
 
 .btn{
+    margin-bottom: 50px;
+    height: 50px;
+    width: 275px;
+    font-family: blackadder;
+    font-size: 22pt;
     background-color: blueviolet;
     color: gold;
+    border-style: inset;
+    border-color: goldenrod;
 }
