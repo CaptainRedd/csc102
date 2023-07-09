@@ -42,12 +42,46 @@ body{
         font-weight: bold;
         margin-right: 55px;
     }
-    #memeImage{
-        align-items: center;
-    }
-    #mfwmeme{
-        align-items: center;
-    }
+        #memeImage{
+            align-items: center;
+        }
+        #mfwMeme{
+            align-items: center;
+        }
+        #cunningPlan{
+            position: absolute;
+            left: 48%;
+            top: 180%;
+            width: 200px;
+        }
+        #strbtn{
+            align-items: center;
+            margin-right: 650px;
+            cursor: grabbing;
+            font-family: blackadder;
+            font-size: 24px;
+            font-weight: 800;
+            text-align: center;
+            background-color:indigo;
+            color:goldenrod;
+            border-radius: 10px;
+            border: 4px inset gold;
+            padding: 10px;
+        }
+        #stpbtn{
+            align-items: center;
+            margin-right: 650px;
+            cursor: help;
+            font-family: blackadder;
+            font-size: 24px;
+            font-weight: 800;
+            text-align: center;
+            background-color:indigo;
+            color:goldenrod;
+            border-radius: 10px;
+            border: 4px inset gold;
+            padding: 10px;
+        }
     footer{
         color:goldenrod;
         border-top-style:ridge;
