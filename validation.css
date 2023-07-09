@@ -9,11 +9,21 @@ body{
     font-family: Blackadder;
     font-size: 24pt;
 }
+nav{
+    border-style: double;
+    border-color: goldenrod;
+    height: 1700px;
+    width: 150px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    margin-right: 20px;  
+}
 h1{
     text-align:center;
     }
 form{
-    margin-left: 750px;
+    margin-left: 825px;
     margin-right:750px;
     background-color:darkviolet;
     border: 2px double gold;

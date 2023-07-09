@@ -8,20 +8,26 @@ body{
     font-family: blackadder;
     font-size: 24pt;
     text-align: center;
-
 }
-
+nav{
+    border-style: double;
+    border-color: goldenrod;
+    height: 1700px;
+    width: 175px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    margin-right: 20px;  
+}
     h1{
         color:aqua
     }
-
     div{
         font-size: larger;
     }
-
     .btn{
         margin-bottom: 50px;
-        height: 50px;
+        height: 70px;
         width: 275px;
         font-family: blackadder;
         font-size: 22pt;
