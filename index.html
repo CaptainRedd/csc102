@@ -1,58 +1,98 @@
 <!--Tristan Biggs-->
-<!DOCTYPE html>
+    <title>CSC102 Assignment 1.2</title>
+<!--Defines the programming language for the browser-->
+    <!DOCTYPE html>
+<!--Defines the spoken language used to code in-->
 <html lang="en">
+<!--The opening header-->
 <head>
+<!--Defines the set of characters to be used in the program. UTF-8 includes every character in any language-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Defines the scaling of the webpage, in this instance it scales to the device itself-->
+    <meta name="viewport" content="width=, initial-scale=1.0">
+<!--Defines the page title-->
     <title>CSC 102 Assignment 1.2 "Index"</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="rngflight.js"></script>
+<!--Closes the opening header-->
 </head>
+<!--Starts the body-->
 <body>
+<!--Starts the header for this page-->
     <header>
+<!--Defines the first heading for this page-->
         <h1>Welcome to a Coder's Log of knowledge and skills from CSC 102</h1>
+<!--Closes the header-->
     </header>
+<!--This is where the Navigation Menu is located-->
         <nav>
+<!--headings that define and label hyperlinks for navigating the webpage-->
             <h2><a href="./index.html">Home</a></h2>
             <h2><a href="./boards.html">Boards</a></h2>
             <h2><a href="./game.html">Play craps</a></h2>
             <h2><a href="./practice.html">What's the pet's name again...?</a></h2>
             <h2><a href="./strings.html">Wossyer name, then?</a></h2>
+<!--Closes Nav-->
         </nav>
+<!--This is a division, used on this page instead of p to make it easier to apply css elements to div globally-->
         <div>
-            There's going to be a lot to learn here.
+        There's going to be a lot to learn here.
+<!--Line break-->
         <br>
-            Let's get started.
+        Let's get started.
+<!--Closes the division-->
         </div>
-    <br>
+<!--Line break-->
+        <br>
+<!--Heading-->
         <h3>Coder's Log 7.8.23, 2:30 am</h3>  
+<!--Division-->
             <div>   
-                So far it's been a lot of head-scratching about why on earth one change affected another element, followed by a great deal of poking and prodding until finally whatever happens to be a bother falls into place. Good old trial and error.
-            <br>
+            So far it's been a lot of head-scratching about why on earth one change affected another element, followed by a great deal of poking and prodding until finally whatever happens to be a bother falls into place. Good old trial and error.
+<!--Line break-->            
+        <br>
+<!--This is the necessary image ID and source used to display it in this section-->
             <img id="memeImage" src="Images\meme.png" style="width: 30vw; min-width: 330px;">
+<!--Closes the division-->            
             </div>
-    <br>
+<!--Line Break-->
+        <br>
+<!--Heading-->
         <h3>Coder's Log 7.8.23, 5:12 am</h3>
+<!--Division-->
             <div>
-                Blast! I've just wasted almost two whole hours attempting to change the color of a specific JavaScript variable, to no avail... I suspect it would involve rewriting the function and divs, but that would render the existing divs redundant. I'll need to move on, though...
-            <br>
-            <img id="mfwMeme" src="Images\mfwmeme.png" style="width: 30vw; min-width: 330px;">
+            Blast! I've just wasted almost two whole hours attempting to change the color of a specific JavaScript variable, to no avail... I suspect it would involve rewriting the function and divs, but that would render the existing divs redundant. I'll need to move on, though...
+<!--Line Break-->            
+        <br>
+<!--This is the necessary image ID and source used to display it in this section-->
+            <img id="mfwmeme" src="Images\mfwmeme.png" style="width: 30vw; min-width: 330px;">
+<!--Closes the division-->            
             </div>
-    <br>
-        <h3>Coder's Log 7.8.23, 5:21 pm</h3>
-            <div>
-                Here I am, almost 12 hours later - coding the entire way. How fortuitous is it for me that this next assignment specifically addresses the functions I was attempting to impliment in the previous validation assignment. I except that should be updated by the end of this, and I'm thankful I won't have to rely on google to figure out how that works. What a pain that was.
-            <br>
-            <img id="cunningPlan" src="Images\cunningmeme.png" style="width: 30vw; min-width: 330px;">
-            <input type="button" onclick="start()" value="Bugger off, Baldrick, I can't see the log." id="strbtn">
-            <input type="button" onclick="stop()" value="You have a cunning plan, do you?" id="stpbtn">
-            </div>
-        
+        <br>
+<!--Heading-->
+            <h3>Coder's Log 7.8.23, 5:21 pm</h3>
+<!--Division-->                
+                <div>
+                    Here I am, almost 12 hours later - coding the entire way. How fortuitous is it for me that this next assignment specifically addresses the functions I was attempting to impliment in the previous validation assignment. I except that should be updated by the end of this, and I'm thankful I won't have to rely on google to figure out how that works. What a pain that was.
+<!--Line Break-->                 
+        <br>
+<!--This is the necessary image ID and source used to display it in this section-->
+                <img id="cunningPlan" src="Images\cunningmeme.png" style="width: 30vw; min-width: 330px;">
+<!--This creates a button based on input type and calls the start script when clicked-->
+<!--It also defines the text on the button and gives it an id-->                
+                <input type="button" onclick="start()" value="Bugger off, Baldrick, I can't see the log." id="strbtn">
+<!--This creates a button based on input type and calls the stop script when clicked-->
+<!--It also defines the text on the button and gives it an id-->                     
+                <input type="button" onclick="stop()" value="You have a cunning plan, do you?" id="stpbtn">
+<!--Closes the division-->                
+                </div>
+<!--This is the Footer, used to display information at the foot of the page-->
         <Footer>
             Tristan Biggs<br>
             University of Advancing Technology<br>
             2626 W Baseline rd <br>
             Tempe AZ, 85283 <br>
+<!--Closes the footer-->
         </Footer>
+<!--Closes the body-->
 </body>
+<!--Closes the html for the page-->
 </html>
