@@ -9,30 +9,20 @@ body{
     font-size: 24pt;
     text-align: center;
 }
-nav{
+table{
     border-style: double;
     border-color: goldenrod;
-    height: 1700px;
-    width: 175px;
-    float: left;
-    padding: 5px;
-    line-height: 30px;
-    margin-right: 20px;  
+    margin-left: 450px;
 }
-    h1{
-        color:aqua
-    }
-    div{
-        font-size: larger;
-    }
-    .btn{
-        margin-bottom: 50px;
-        height: 70px;
-        width: 275px;
-        font-family: blackadder;
-        font-size: 22pt;
-        background-color: blueviolet;
-        color: gold;
-        border-style: inset;
-        border-color: goldenrod;
-    }
+th,
+td {
+    align-items: center;
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 10px;
+}
+canvas{
+    border-style: double;
+    border-color: goldenrod;
+    background-color: aqua;
+}

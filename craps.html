@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Title of the page-->    
+    <title>Play Craps!</title>
+<!--sources the javascript file to pull scripts from-->    
+    <script src="scriptsToUse.js"></script>
+<!--references css page for css formatting-->    
+    <link rel="stylesheet" href="game.css">
+</head>
+<nav>
+    <style type="text/css">
+        table{
+            border-style: double;
+            border-color: goldenrod;
+            margin-left: 500px;
+        }
+        th,
+        td {
+            align-items: center;
+            border-style: solid;
+            border-color: goldenrod;
+            padding: 10px;
+        }
+    </style>
+<!--headings that define and label hyperlinks for navigating the webpage-->
+    <table>
+    <tbody>
+        <th colspan="5">Navigation</th>
+    <tr>
+        <td><a href="./index.html">Home</a></td>
+        <td><a href="./boards.html">Boards</a></td>
+        <td><a href="./game.html">Play craps</a></td>
+        <td><a href="./practice.html">What's the pet's name again...?</a></td>
+        <td><a href="./strings.html">Wossyer name, then?</a></td>
+    </tr>
+    </tbody>
+    </table>
+    <h2></h2>
+<!--Closes Nav-->
+</nav>
+<body>
+    <!--Tristan Biggs CSC102 Week 3 Assignment-->
+<!--Header-->
+    <h1>Welcome, welcome!</h1>
+<!--button that calls script to play craps-->
+    <button class="btn" onclick="playCraps();">Fancy a game of Craps?</button>
+<!--IDs for die roll results-->    
+    <div id="crapsRes">Craps Results</div>
+    <div id="die1Res">Die 1 Results</div>
+    <div id="die2Res">Die 2 Results</div>
+    <div id="sumRes">Sum Results</div>
+
+<!--closes body and html-->
+</body>
+</html>

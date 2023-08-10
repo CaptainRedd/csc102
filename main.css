@@ -12,16 +12,7 @@ body{
     header{
         margin-left: 170px;
     }
-    nav{
-        border-style: double;
-        border-color: goldenrod;
-        height: 3000px;
-        width: 150px;
-        float: left;
-        padding: 5px;
-        line-height: 30px;
-        margin-right: 20px;  
-    }
+
     div {
         margin-left: 525px;
         margin-right: 415px;
