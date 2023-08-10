@@ -11,12 +11,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--Defines the page title-->
     <title>Coder's Log</title>
+<!--references the css file to use as a stylesheet-->
     <link rel="stylesheet" href="main.css">
+<!--references the javascript file to call scripts from-->
     <script src="scriptsToUse.js"></script>
 <!--Closes the opening header-->
 </head>
 <!--Starts the body-->
 <body>
+
+<!--COPY FROM HERE TO UPDATE BOARDS.HTML-->
+<!--Background audio-->
+<audio controls>
+    <source src="Audio/Music/background.mp3" type="audio/mpeg" volume="0.5">
+</audio>
 <!--Starts the header for this page-->
     <header>
 <!--Defines the first heading for this page-->
@@ -36,6 +44,9 @@
 <!--This is a division, used on this page instead of p to make it easier to apply css elements to div globally-->
         <div>
         There's going to be a lot to learn here.
+        <br>
+        Before we begin, it should be noted that changelog items are in <span style=color:aquamarine;>aquamarine,</span> 
+        and to-do items are in <span style=color:gold;>gold.</span>
 <!--Line break-->
         <br>
         Let's get started.
@@ -46,8 +57,9 @@
 <!--Heading-->
         <h3>Coder's Log 7.8.23, 2:30 am</h3>  
 <!--Division-->
-            <div>   
-            So far it's been a lot of head-scratching about why on earth one change affected another element, followed by a great deal of poking and prodding until finally whatever happens to be a bother falls into place. Good old trial and error.
+            <div id="entryOne">   
+            So far it's been a lot of head-scratching about why on earth one change affected another element, followed by a great 
+            deal of poking and prodding until finally whatever happens to be a bother falls into place. Good old trial and error.
 <!--Line break-->            
         <br>
 <!--This is the necessary image ID and source used to display it in this section-->
@@ -59,20 +71,24 @@
 <!--Heading-->
         <h3>Coder's Log 7.8.23, 5:12 am</h3>
 <!--Division-->
-            <div>
-            Blast! I've just wasted almost two whole hours attempting to change the color of a specific JavaScript variable, to no avail... I suspect it would involve rewriting the function and divs, but that would render the existing divs redundant. I'll need to move on, though...
+            <div id="entryTwo">
+            Blast! I've just wasted almost two whole hours attempting to change the color of a specific JavaScript variable, to no avail... 
+            I suspect it would involve rewriting the function and divs, but that would render the existing divs redundant. I'll need to move on, though...
 <!--Line Break-->            
         <br>
 <!--This is the necessary image ID and source used to display it in this section-->
-            <img id="mfwmeme" src="Images\mfwmeme.png" style="width: 30vw; min-width: 330px;">
+            <img id="mfwMeme" src="Images\mfwmeme.png" style="width: 30vw; min-width: 330px;">
 <!--Closes the division-->            
             </div>
         <br>
 <!--Heading-->
-            <h3>Coder's Log 7.8.23, 5:21 pm</h3>
+        <h3>Coder's Log 7.8.23, 5:21 pm</h3>
 <!--Division-->                
-                <div>
-                    Here I am, almost 12 hours later - coding the entire way. How fortuitous is it for me that this next assignment specifically addresses the functions I was attempting to impliment in the previous validation assignment. I except that should be updated by the end of this, and I'm thankful I won't have to rely on google to figure out how that works. What a pain that was.
+                <div id="entryThree">
+                    Here I am, almost 12 hours later - coding the entire way. How fortuitous is it for me that this next assignment 
+                    specifically addresses the functions I was attempting to impliment in the previous validation assignment. I expect that 
+                    should be updated by the end of this, and I'm thankful I won't have to rely on google to figure out how that works. 
+                    What a pain that was.
 <!--Line Break-->                 
         <br>
 <!--This is the necessary image ID and source used to display it in this section-->
@@ -85,6 +101,149 @@
                 <input type="button" onclick="stop()" value="You have a cunning plan, do you?" id="stpbtn">
 <!--Closes the division-->                
                 </div>
+<!--Heading-->
+        <h3>Coder's Log 7.9.23, 2:42 pm</h3>
+<!--Division-->                
+                <div id="entryFour">
+                So far, so good. I was a bit behind, but for the most part I've caught up. I've <span style=color:aquamarine;>condensed my scripts into one file, 
+                but I had to keep the palindrome checker separate.</span> It was causing scripts to run whenever I attempted to open any page,
+                 usually practice.html, then sent me to validation.html when the script ended. I think it's the do while loop, since it's 
+                 the only script that doesn't effectively end without conditional input and the javascript file is called on every page. 
+                 I still want to <span style=color:gold;>figure out how to use that concept to open validation every time a page is opened, 
+                and then redirect to index.html on success and have that result be persistent for the user</span>- essentially functioning 
+                as a password, without having to store those credentials.
+<!--Line Break-->               
+                <br>
+                I also <span style=color:aquamarine;>cleaned up the code a bit,</span> and <span style=color:aquamarine;>added nav to game.html and strings.html</span>
+                 to be able to return home without opening the index.html manually. I do also still want to <span style=color:gold;>figure out how to make the specific integer produced by 
+                rollDie a different color,</span> and <span style=color:gold;>generate text in a position relative to the position of 
+                cunningPlan.png when a user clicks the srtbtn or stpbtn.</span> I wanted to <span style=color:gold;>add a little more depth to 
+                index</span> as well, and to that end I've <span style=color:aquamarine;>added an ID for each div holding a log entry.</span> I should probably read more of the supplemental 
+                reading material, but I tend to have a hard time retaining that much information at once without practically copying it word-for-word by 
+                hand and I don't always have that kind of time. I might also <span style=color:gold;>add a table of contents nav menu for Log entries</span>, once I figure out how. Also,
+                <span style=color:gold;>make nav height persistently consistent with page length.</span>      
+<!--Line Break-->                
+                <br>
+<!--This is the necessary image ID and source used to display it in this section-->                
+                <img id="mfwPlan" src="Images\planmeme.png" style="width: 30vw; min-width: 330px;">
+<!--Closes the division-->                
+                </div>
+        <h3>Coder's Log 8.9.23, 12:17pm</h3>
+
+                <div id="entryFive">
+<!--This is a table and style for an audio player (please don't make me comment over every line it's so long :( )-->
+                    <style type="text/css">
+                            table{
+                                background-image: url(Images/mpbck.png);
+                                border-style: double;
+                                border-color: goldenrod;
+                                color:gold;
+                        }
+                    </style>
+                        <table>
+                        <tbody>
+                            <th colspan="4">Pixel RPG Music by alkakrab</th>
+                        </tr>
+                        <tr>
+                            <td>Storm</td>
+                            <td>
+                                <audio controls id="Storm">
+                                    <source src ="Audio\Music\(1) Storm.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                            <td>In The Castle</td>
+                            <td>
+                                <audio controls id ="Castle">
+                                    <source src ="Audio\Music\(2) In The Castle.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hall of the King</td>
+                            <td>
+                                <audio controls id ="King">
+                                    <source src ="Audio\Music\(3) Hall Of The King.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                            <td>Dark Dungeon</td>
+                            <td>
+                                <audio controls id ="Dungeon">
+                                    <source src ="Audio\Music\(4) Dark Dungeon.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ghost Castle</td>
+                            <td>
+                                <audio controls id ="Ghost">
+                                    <source src ="Audio\Music\(5) Ghost Castle.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                            <td>Swamp</td>
+                            <td>
+                                <audio controls id ="Swamp">
+                                    <source src ="Audio\Music\(6) Swamp.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lost City</td>
+                            <td>
+                                <audio controls id ="City">
+                                    <source src ="Audio\Music\(7) Lost City.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                            <td>Cursed Vilage</td>
+                            <td>
+                                <audio controls id ="Vilage">
+                                    <source src ="Audio\Music\(8) Cursed Vilage.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Strange Farm</td>
+                            <td>
+                                <audio controls id ="Farm">
+                                    <source src ="Audio\Music\(9) Strange Farm.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                            <td>Magickal Forest</td>
+                            <td>
+                                <audio controls id ="River">
+                                    <source src ="Audio\Music\(10) Magickal Forest.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                        </tr>           
+                        <tr>
+                            <td>Dark Woods</td>
+                            <td>
+                                <audio controls id ="Woods">
+                                    <source src ="Audio\Music\(11) Dark Woods.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                            <td>Magickal River</td>
+                            <td>
+                                <audio controls id ="River">
+                                    <source src ="Audio\Music\(12) Magickal River.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    I've spent a lot of time trying to get this one to work. I put it in a table because that just seemed the fastest way to organize it,
+                    but I'm having a lot of trouble trying to get a background image onto the table. I've tried a few different ways to set a background
+                    image to an element, but it doesn't seem to work out. It even seemed to break my code, every time I attempt to set a background image my 
+                    pages stop updating after refresh when I save the new code. Not entirely sure how that works. At any rate, this is music I wanted to use 
+                    from a free asset site for the game you make in TCH115. Still have yet to do it, though, since I can't seem to find a program that will 
+                    actually work long enough for me to make anything with it.
+                <br>
+                    I talked to my professor and she told me how to fix it! Huzzah. Now to make a different table, since I really just did this one for the audio assignment.
+                    Unfortunately, it's not background sound nor is it 3 columns and 4 rows so I can't actually use this with any assignment at all. Instead, I just put 
+                    in the supplied background audio from the ISS. 
+                <br>        
+                </div>
+
+
 <!--This is the Footer, used to display information at the foot of the page-->
         <Footer>
             Tristan Biggs<br>

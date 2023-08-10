@@ -15,7 +15,7 @@ body{
     nav{
         border-style: double;
         border-color: goldenrod;
-        height: 1700px;
+        height: 3000px;
         width: 150px;
         float: left;
         padding: 5px;
@@ -41,7 +41,8 @@ body{
         text-decoration: underline;
         font-weight: bold;
         margin-right: 55px;
-    }
+        }
+
         #memeImage{
             align-items: center;
         }
